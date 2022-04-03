@@ -5,7 +5,8 @@ from os import listdir
 from os.path import isfile, join, splitext
 
 
-PIXELART_FOLDER = "./pixelart/"
+PIXELART_FOLDER = "./generator/pixelart/"
+MASK_FILE = "./generator/mask.png"
 
 FIELD_WIDTH = 6000
 FIELD_HEIGHT = 3000
@@ -29,7 +30,7 @@ def get_pixelart():
     return pixelart
 
 def open_mask():
-    mask_i = Image.open("mask.png")
+    mask_i = Image.open(MASK_FILE)
     mask = Image.new("1", (FIELD_WIDTH, FIELD_HEIGHT), 0)
     mask.paste(mask_i)
     return mask
@@ -54,7 +55,7 @@ def generate_template():
 
     mask = open_mask()
     template = Image.composite(create_blank_image(), canvas, mask)
-    template.save("../template.png")
+    template.save("template.png")
 
 
 generate_template()
