@@ -9,7 +9,7 @@ PIXELART_FOLDER = "./generator/pixelart/"
 MASK_FILE = "./generator/mask.png"
 
 FIELD_WIDTH = 2000
-FIELD_HEIGHT = 1000
+FIELD_HEIGHT = 2000
 
 def parse_coordinates(filename):
     name = splitext(filename)[0]
