@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         r/placeCosmere Logo Template (modified for Stardew Valley)
+// @name         r/stardewvalley Logo Template (modified from r/placeCosmere)
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  try to take over the canvas!
