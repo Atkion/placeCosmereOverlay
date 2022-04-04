@@ -38,7 +38,7 @@ if (window.top !== window.self) {
             console.log(i);
             return i;
         })())
-		*/ document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
+		/* document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
             i.src = "https://github.com/Atkion/placeCosmereOverlay/raw/master/FantasyAlliance.png";
