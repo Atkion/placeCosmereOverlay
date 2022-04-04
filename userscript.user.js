@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/placeCosmere Logo Template
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the canvas!
 // @author       oralekin, exdeejay (xDJ_), modified for r/placeCosmere by Atkion
 // @match        https://hot-potato.reddit.com/embed*
