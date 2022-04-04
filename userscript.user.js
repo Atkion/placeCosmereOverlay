@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/StardewValley Logo Template (modified from r/placeCosmere)
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the canvas!
 // @author       oralekin, exdeejay (xDJ_), modified for r/placeCosmere by Atkion, modified again for r/StardewValley by Magiwarriorx
 // @match        https://hot-potato.reddit.com/embed*
@@ -15,7 +15,7 @@ if (window.top !== window.self) {
 					
 					const i = document.createElement("img");
 					i.src = "https://github.com/Magiwarriorx/placeCosmereOverlay/raw/master/template.png";
-					i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
+					i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
 					console.log(i);
 
                     return i;
