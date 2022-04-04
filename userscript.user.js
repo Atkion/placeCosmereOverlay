@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         r/StardewValley Logo Template (modified from r/placeCosmere)
+// @name         r/placeCosmere Logo Template
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.4
 // @description  try to take over the canvas!
 // @author       oralekin, exdeejay (xDJ_), modified for r/placeCosmere by Atkion, modified again for r/StardewValley by Magiwarriorx
 // @match        https://hot-potato.reddit.com/embed*
@@ -30,7 +30,7 @@ if (window.top !== window.self) {
 
                     return i;
 				})())
-       /* document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
+        document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
             i.src = "https://github.com/Lopeh/onepiece-place/raw/main/onepiece_template.png";
@@ -38,7 +38,7 @@ if (window.top !== window.self) {
             console.log(i);
             return i;
         })())
-		 document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
+		*/ document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
             i.src = "https://github.com/Atkion/placeCosmereOverlay/raw/master/FantasyAlliance.png";
