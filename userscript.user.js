@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/StardewValley Logo Template (modified from r/placeCosmere)
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.1
 // @description  try to take over the canvas!
 // @author       oralekin, exdeejay (xDJ_), modified for r/placeCosmere by Atkion, modified again for r/StardewValley by Magiwarriorx
 // @match        https://hot-potato.reddit.com/embed*
