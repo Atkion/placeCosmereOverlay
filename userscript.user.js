@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         r/placeCosmere Logo Template
+// @name         r/placeCosmere Logo Template (modified for Stardew Valley)
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  try to take over the canvas!
@@ -30,7 +30,7 @@ if (window.top !== window.self) {
 
                     return i;
 				})())
-        document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
+       /* document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
             i.src = "https://github.com/Lopeh/onepiece-place/raw/main/onepiece_template.png";
@@ -38,7 +38,7 @@ if (window.top !== window.self) {
             console.log(i);
             return i;
         })())
-		/* document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
+		 document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
             i.src = "https://github.com/Atkion/placeCosmereOverlay/raw/master/FantasyAlliance.png";
